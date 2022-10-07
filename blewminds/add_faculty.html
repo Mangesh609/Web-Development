@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlewMinds</title>
+    <!--Font CDN-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <!-- FAVICON -->
+    <link rel="icon" href="icon.png" sizes="32x32">
+    <!-- CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- JavaScript CDN -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!--External CSS -->
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: rgb(17, 17, 17);height: 70px;">
+        <div class="container-fluid" style="background-color: rgb(17, 17, 17);">
+
+            <span style="margin-right: 50%;">
+                <a href="add_faculty.html"><img
+                        src="https://www.blewminds.com/wp-content/uploads/2021/03/cropped-cropped-Blewmind-logo.png"
+                        alt="Logo" height="60px" width="100%"></a>
+            </span>
+
+            <!--Toogle Bar for Small Devices-->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item" style="padding: 10px;"> <a href="admin_dashboard.php"
+                            class="nav-link">Dashboard</a> </li>
+                    <li class="nav-item" style="padding: 10px;"> <a href="index.html" class="nav-link">Log Out</a> </li>
+            </div>
+        </div>
+    </nav>
+    <!-- Form starts here -->
+    <form action="faculty_details.php" method="POST">
+        <div class="container">
+            <div class="card">
+
+                <div class="">
+                    <span>
+                        <h1 id="heading">Add Faculty Member</h1>
+                    </span>
+                </div>
+               <div class="card2">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <span>
+                            <h3 >FirstName</h3>
+                        </span>
+                    </div>
+                    <div class="col-lg-6">
+                        <span>
+                            <input type="text"  placeholder="FirstName" name="firstname" required>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <span>
+                            <h3 >LastName</h3>
+                        </span>
+                    </div>
+                    <div class="col-lg-6">
+                        <span>
+                            <input type="text"  placeholder="LastName" name="lastname" required>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <span>
+                            <h3 >Password</h3>
+                        </span>
+                    </div>
+                    <div class="col-lg-6">
+                        <span>
+                            <input type="password"  placeholder="Password" max="20" required name="password">
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <span>
+                            <h3 >Mobile Number</h3>
+                        </span>
+                    </div>
+                    <div class="col-lg-6">
+                        <span>
+                            <input type="number"  placeholder="Mobile-No" name="mobile">
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <span>
+                            <h3 >Email-Id</h3>
+                        </span>
+                    </div>
+                    <div class="col-lg-6">
+                        <span>
+                            <input type="email"  placeholder="name@example.com" name="email">
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <span>
+                            <h3 >Aadhar-Id</h3>
+                        </span>
+                    </div>
+                    <div class="col-lg-6">
+                        <span>
+                            <input type="text"  placeholder="0000-0000-0000-0000" max="20" name="aadhar">
+                        </span>
+                    </div>
+                </div>
+                <div class="btn">
+                   <input type="submit"  value="ADD Faculty" class="button">
+                </div>
+            </div>
+               </div>
+        </div>
+    </form>
+</body>
+
+</html>

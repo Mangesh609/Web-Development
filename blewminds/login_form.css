@@ -1,0 +1,175 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.card{
+width: 50%; background-color: black;height:auto;
+position: absolute;
+left: 26%;
+top: 23%;
+
+}
+#img{
+    position: absolute;
+    left: 45%;
+    top: 15%;
+    height: 17%;
+    width: 12%;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: Caveat;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+
+.span1{
+   
+    padding-top: 2%;
+}
+.span2{
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+h3{
+    color: rgb(158, 158, 158);
+}
+input[type=email] {
+    width: 40%;
+    height: 40px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgb(187, 200, 211);
+    color: rgb(2, 2, 2);
+
+  
+  }
+  input[type=password] {
+    width: 40%;
+    height: 40px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgb(187, 200, 211);
+    color: rgb(2, 2, 2);
+
+  
+  }
+  input[type=submit] {
+    width: 25%;
+    height: 35px;
+    padding: 1px 2px;
+    box-sizing: border-box;
+    border:solid;
+    border-color: orange;
+    background-color: rgb(187, 200, 211);
+    color: rgb(2, 2, 2);
+    border-radius: 5px;
+
+    margin-top: 2%;
+    margin-left: 40%;
+    font-weight: bold;
+  }
+  input[type=submit]:hover{
+      background-color: rgb(255, 88, 28);
+  }
+  #pa{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    margin-left: 32%;
+}
+  @media screen and (max-width:1124px){
+    #img{
+        position: absolute;
+        left: 48%;
+        top: 13%;
+        height: 14%;
+        width: 16%;
+    }
+
+} 
+@media screen and (max-width:859px){
+    #img{
+        position: absolute;
+        left: 50%;
+        top: 15%;
+        height: 10%;
+        width: 12%;
+    }
+} 
+@media screen and (max-width:600px){
+    #img{
+        position: absolute;
+        left: 50%;
+        top: 20%;
+        height: 8%;
+        width: 10%;
+    }
+    input[type=password] {
+        width: 60%;
+        height: 30px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border: none;
+        background-color: rgb(187, 200, 211);
+        color: rgb(2, 2, 2);
+      }
+      input[type=email] {
+        width: 60%;
+        height: 30px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border: none;
+        background-color: rgb(187, 200, 211);
+        color: rgb(2, 2, 2);
+      }
+      .card{
+        width: 60%; background-color: black;height:auto;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    }
+    h1{
+        color: white;
+        text-align: center;
+        font-family: Caveat;
+        margin-top: 25%;
+        margin-bottom: 5%;
+        font-size: 30px;
+    }
+    
+    
+    .span1{
+        margin-top:10%;
+        padding-top: 2%;
+    }
+    .span2{
+        margin-left: 10%;
+        margin-bottom: 2%;
+    }
+    #pa{
+        margin-top: 5%;
+        font-size: 12px;
+    }
+    input[type=submit] {
+        width: 30%;
+        height: 30px;
+        padding: 1px 2px;
+        box-sizing: border-box;
+        border:solid;
+        border-color: orange;
+        background-color: rgb(187, 200, 211);
+        color: rgb(2, 2, 2);
+        border-radius: 5px;
+    
+        margin-top: 5%;
+        margin-left: 20%;
+        font-weight: bold;
+      }
+      input[type=submit]:hover{
+          background-color: rgb(255, 88, 28);
+      }
+} 

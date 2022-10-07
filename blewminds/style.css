@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(180, 180, 180);
+}
+#image1{
+    margin-top: 30px;
+
+    
+}
+/*#heading{
+    margin-top: 30%;
+    font-size: xxs-large;
+    font-family:Caveat;
+}*/
+.d-block{
+    margin-top:30px;
+    height: 500px;
+    width: 50%;
+}
+#divimg{
+    width: 75%;
+    align-items: center;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+.dashboard{
+    height: 70px;
+    font-family:Kalam;
+    margin-top: 25px;
+    margin-left: 2%;
+}
+
+#feed{
+    font-size: 18px;
+    font-family: Tinos;
+
+}
+#spanhead{
+    margin-right: 60%;
+}
+@media screen and (max-width:600px){
+
+    nav1{background-color: rgb(17, 17, 17);height: 70px;}
+    #spanhead{
+        margin-right: 30%;
+    }
+}
+
